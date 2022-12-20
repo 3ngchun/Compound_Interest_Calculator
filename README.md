@@ -1,11 +1,10 @@
-# Compound_Interest_Calculator
+# Compound Interest Calculator
 A little more dynamic Compound Interest Calculator in CLI
 ### Tested Requirement
-Windows: \
+#### Windows: 
 Python 3.11.1 \
-MSC v.1934 64 bit (AMD64) \
-\
-Linux: \ 
+MSC v.1934 64 bit (AMD64) 
+#### Linux: 
 Python 3.10.6 \
 GCC 11.3.0 
 ### To install
