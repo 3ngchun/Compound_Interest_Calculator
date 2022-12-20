@@ -217,7 +217,7 @@ if __name__ == '__main__':
         except SystemError:
             print(SystemError)
         except SystemExit:
-            print(SystemError)
+            print(SystemExit)
             sys_exit()
         except TypeError:
             print(TypeError)
