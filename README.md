@@ -30,28 +30,31 @@ python3 main.py
 | Interest kicks in on year 1!               |
 ##############################################
 
-Select your option! 
-1: Simple compound interest calculator 
-2: Dynamic compound interest calculator 
-3: exit 
+Select your option!
+1: Simple compound dividend calculator (no reinvest)
+2: Simple compound gain calculator (reinvest)
+3: Dynamic compound dividend calculator (no reinvest) # NOT DONE
+4: Dynamic compound gain calculator (reinvest)
+5: exit
 --> 
 ```
 #### User input request
 ```
-Years of holding: 
-Yearly Addition: $ 
-Interest in percentage: 
-Interest in inflation: 
+Years of holding: 888
+Yearly Addition: $888.88
+Interest in percentage: 888.88
+Interest in inflation: 888.88
 ```
 #### Output of user input
 ```
-########## Year 1/100 result! ########## 
-Total contribution: $0.0! 
-Inflated value: $0.0! 
-Future value: $0.0! 
-Gain vs Base 0.0% 
-Gain vs Inflation 0.0% 
-############# END OF YEAR ############# 
+########## Year 8/88 result! ##########
+Total contribution: $888.88!
+Total interest: $888.88!
+Inflated value: $888.88
+Future value: $888.88!
+Gain vs Base + Interest: 888.88%
+Gain vs Inflation 888.88%
+############# END OF YEAR #############
 ```
 #### End of service
 ```
