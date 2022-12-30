@@ -21,25 +21,36 @@ py -3 main.py
 ```
 python3 main.py
 ```
-#### Output of ``` py -3 main.py ``` or ``` python3 main.py ``` 
+#### Output of ```py -3 main.py || python3 main.py``` for option 1
 ```
-##############################################
+|############################################|
 | Welcome to Engch interest calculator!      |
 | Only accept numerical numbers input.       |
 | Rounds off to nearest 2 significant value. |
-| Interest kicks in on year 1!               |
-##############################################
+| Interest/dividend kicks in on year 1!      |
+| Gains kicks in after interest/dividend!    |
+|############################################|
 
 Select your option!
-1: Simple compound dividend calculator (no reinvest)
-2: Simple compound gain calculator (reinvest)
-3: Dynamic compound dividend calculator (no reinvest) # NOT DONE
-4: Dynamic compound gain calculator (reinvest)
-5: exit
+1: Simple Compound Dividend Calculator (no reinvest)
+2: Simple Compound Gain Calculator (reinvest)
+3: Dynamic Compound Dividend Calculator (no reinvest)
+4: Dynamic Compound Gain Calculator (reinvest)
+5: Quick Present Value Calculator
+6: Quick Future Value Calculator
+0: Exit
 --> 
 ```
 #### User input request
 ```
+|################################|
+| User to input                  |
+| --> Yearly Addition            |
+| --> Holding gain in percentage |
+| --> Interest in percentage     |
+| --> Interest in inflation      |
+|################################|
+
 Years of holding: 888
 Yearly Addition: $888.88
 Interest in percentage: 888.88
@@ -48,15 +59,20 @@ Interest in inflation: 888.88
 #### Output of user input
 ```
 ########## Year 8/88 result! ##########
-Total contribution: $888.88!
-Total interest: $888.88!
-Inflated value: $888.88
-Future value: $888.88!
-Gain vs Base + Interest: 888.88%
-Gain vs Inflation 888.88%
+Total Contribution: $888.88!
+Future Value: $888.88!
+Present Value: $888.88!
+Inflated Value: $888.88!
+Total Interest: $888.88!
+Total Gain: $888.88!
+Future (w|wo Interest) vs Total Contribution: 888.88%
+Future (w|wo Interest) vs Inflation: 888.88%
+Present (w|wo Interest) vs Total Contribution: 888.88%
 ############# END OF YEAR #############
 ```
 #### End of service
 ```
-Thank you for using this CLI service :-)
+|##########################################|
+| Thank you for using this CLI service :-) |
+|##########################################|
 ```
